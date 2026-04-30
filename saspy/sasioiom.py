@@ -188,7 +188,7 @@ class SASconfigIOM:
 
             cpath = cpath+"iomclient"+sep
 
-            if self.log4j not in ['2.17.1', '2.12.4']:
+            if self.log4j not in ['2.25.4', '2.17.1', '2.12.4']:
                 logger.warning("Parameter 'log4j' passed to SAS_session was invalid. Using the default of 2.12.4.")
                 self.log4j = '2.12.4'
 
